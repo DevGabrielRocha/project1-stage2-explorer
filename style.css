@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-orange: rgba(255, 153, 0, 1);
+    --color-gray: rgba(125, 121, 135, 1);
+}
+
+#balls {
+    position: absolute;
+    right: 0vw;
+    bottom: 0vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+
+#hero h1 {
+    margin-top: 72px;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#hero p {
+    font-size: 0.9rem;
+    color: var(--color-gray);
+    margin-top: 2rem;
+}
+
+.orange {
+    color: var(--color-orange);
+}
+
+#footer {
+    position: fixed;
+    bottom: 4vh;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+#line {
+    border: 1px solid rgba(125, 121, 135, 0.123);
+    width: 600px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer :hover {
+    text-decoration: underline;
+
+}
